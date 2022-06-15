@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: darkmagenta;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+.header img {
+  width: 100px;
+  margin-right: auto;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+}
+
+.header ul li {
+  margin-right: 70px;
+  font-weight: bold;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner {
+  background: url(../images/section1.back.jpg) center/cover no-repeat;
+}
+
+.banner_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 59px 0 50px;
+}
+
+.banner_title {
+  font-size: 100px;
+  text-align: center;
+  color: white;
+}
+
+.banner_para {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 13px 0 115px;
+}
+
+.banner-text {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.banner-text_para {
+  width: 20%;
+  border: 1.5px solid white;
+  padding: 22px;
+  text-align: center;
+}
+
+.banner-text_para h3 {
+  font-size: 60px;
+}
+
+.banner-text_para p {
+  font-size: 24px;
+}
+
+.banner_button {
+  margin-top: 50px;
+  height: 55px;
+  width: 200px;
+  font-size: 15px;
+  color: white;
+  background-color: darkmagenta;
+  outline: none;
+  font-weight: bolder;
+  cursor: pointer;
+  border: 1px solid darkmagenta;
+  box-shadow: 0 10px 10px -3px rgba(0, 0, 0, 0.9);
+}
+
+.banner_button:hover {
+  background-color: white;
+  color: darkmagenta;
+  border: 1px solid darkmagenta;
+}
+
+.advantages {
+  margin-top: 70px;
+}
+
+.advantages_items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages_item {
+  text-align: center;
+}
+
+.advantages_item h5 {
+  font-size: 20px;
+  width: 270px;
+  border-bottom: 1px solid black;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: #555;
+}
+
+.advantages_item p {
+  font-size: 12px;
+  width: 270px;
+  padding-top: 15px;
+  color: #828282;
+}
+
+.advantages_icon {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 5px solid #e6e6e6;
+}
+
+.advantages_icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.advantages_button {
+  display: block;
+  height: 55px;
+  width: 200px;
+  font-size: 15px;
+  color: darkmagenta;
+  background-color: white;
+  outline: none;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 50px auto 0;
+  border: 1px solid darkmagenta;
+  box-shadow: 0 10px 10px -3px rgba(0, 0, 0, 0.9);
+}
+
+.advantages_button:hover {
+  background-color: darkmagenta;
+  color: white;
+  border: 1px solid white;
+}
+
+.section2 {
+  margin-top: 70px;
+  background-color: #e4e4e4;
+}
+
+.section2_title h3 {
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 1px solid darkmagenta;
+  padding-bottom: 15px;
+}
+
+.section2_title p {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.section2-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section2-buttons_button {
+  display: block;
+  height: 55px;
+  width: 200px;
+  font-size: 15px;
+  color: #555;
+  background-color: white;
+  outline: none;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 50px auto 0;
+  border: 1px solid white;
+  box-shadow: 0 10px 10px -3px rgba(0, 0, 0, 0.9);
+}
+
+.section2-buttons_button:hover {
+  background-color: darkmagenta;
+  color: white;
+  border: 1px solid white;
+}
+
+.section2-body {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.section2-body_left {
+  width: 40%;
+}
+
+.section2-body_left h5 {
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.section2-body_left p {
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+.section2-body_right {
+  width: 40%;
+}
+
+.section2-body_right h5 {
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.section2-body_right p {
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+.section3 {
+  margin-top: 70px;
+}
+
+.section3_title {
+  text-align: center;
+}
+
+.section3_title h3 {
+  font-size: 50px;
+  border-bottom: 1px solid darkmagenta;
+  padding-bottom: 15px;
+}
+
+.section3_title p {
+  font-size: 20px;
+  padding-top: 25px;
+  color: #545454;
+}
+
+.section3-images {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  margin: auto;
+}
+
+.section3-images_img {
+  width: 17%;
+  align-items: center;
+}
+
+.section3-images_img img {
+  width: 300px;
+}
+
+.section3-images_img h4 {
+  text-align: center;
+  font-size: 17px;
+}
+
+.section3-images_img p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.section3_bottom {
+  background-color: darkmagenta;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 59px 0 50px;
+}
+
+.section3_bottom h3 {
+  font-size: 40px;
+  color: #9a9a9a;
+  padding-bottom: 20px;
+}
+
+.section3_bottom .section3-bottom_img {
+  width: 70px;
+  height: 70px;
+  padding: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 5px solid #e6e6e6;
+  background-color: #e4e4e4;
+}
+
+.section3_bottom p {
+  font-size: 20px;
+  width: 90%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.section4 {
+  margin-top: 70px;
+}
+
+.section4_title {
+  text-align: center;
+}
+
+.section4_title h3 {
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+
+.section4_title p {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.section4_body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section4_body-left {
+  width: 500px;
+}
+
+.section4_body-right {
+  padding-top: 25px;
+}
+
+.section4_body-right h4 {
+  font-size: 25px;
+}
+
+.section4_body-right p {
+  font-size: 17px;
+  width: 600px;
+}
+
+.section4_body-right__img {
+  display: flex;
+  width: 200px;
+  padding-top: 5px;
+}
